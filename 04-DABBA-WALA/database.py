@@ -1,6 +1,6 @@
 from sqlmodel import SQLModel, create_engine, Session
 
-
+# database layer for fast api 
 DATABASE_URL = "sqlite:///dabbawala.db"
 
 
