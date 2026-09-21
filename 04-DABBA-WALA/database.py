@@ -6,6 +6,7 @@ DATABASE_URL = "sqlite:///dabbawala.db"
 
 engine = create_engine(DATABASE_URL, echo=True)
 
+#create table for our DB  
 def create_tables():
     SQLModel.metadata.create_all(engine)
 
