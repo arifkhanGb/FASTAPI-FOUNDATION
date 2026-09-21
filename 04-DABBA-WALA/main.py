@@ -13,7 +13,7 @@ async def lifespan(app: FastAPI):
     yield
     print("Application shutdown.")
 
-
+# creating fast api app
 app = FastAPI(
     title="Dabbawala Delivery API",
     description="API for managing dabbawala deliveries and tracking order statuses.",
